@@ -1,0 +1,514 @@
+@media(min-width:10px) and (max-width:1000px) {
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .logo img {
+    width: 40px;
+    height: 37px;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 50px;
+    display: block;
+    position: fixed;
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    position: fixed;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    width: 100%;
+    transition: all 0.5s ease-out;
+    height: 160px;
+  }
+
+  .nav-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 160px;
+    width: 30%;
+  }
+
+  .nav-list li {
+    list-style: none;
+    margin: 8px 5px;
+    font-size: 20px;
+  }
+
+  .nav-list li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    border-radius: 12px;
+    padding: 2px 5px;
+    outline: none;
+  }
+
+  .nav-list li a:hover {
+    border: 2px solid #ffffffbf;
+    color: #ffffffbf;
+    outline: none;
+  }
+
+  .rightNav {
+    position: fixed;
+    right: 60px;
+    top: 12px;
+  }
+
+  .rightNav input {
+    background-color: #ffffff;
+    width: 90px;
+    font-size: 12px;
+    border: 2px solid #00000096;
+    border-radius: 12px;
+    outline: none;
+    height: 1px;
+    padding: 10px;
+  }
+
+  .btn-sm {
+    height: 24px;
+    margin: 5px 10px;
+    border-radius: 12px;
+    padding: 2px 20px;
+    font-weight: bold;
+    background-color: #00000060;
+    color: white;
+    border: 2px solid #00000096;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .burger {
+    cursor: pointer;
+    position: fixed;
+    top: 15px;
+    right: 20px;
+  }
+
+  .line {
+    width: 25px;
+    background-color: white;
+    height: 3px;
+    margin: 4px 0px;
+  }
+
+  .h-nav {
+    height: 0px;
+  }
+
+  .v-class {
+    opacity: 0;
+  }
+
+  .background {
+    background: rgba(0,0,0,0.7) url('image/project8 bg1.jpeg');
+    background-size: cover;
+    background-blend-mode: darken;
+  }
+
+  .firstSection {
+    height: 680px;
+  }
+
+  .box-main {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Sans-Serif;
+    max-width: 90%;
+    height: 93%;
+    margin: auto;
+  }
+
+  .firstHalf {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .secondHalf img {
+    width: 260px;
+    height: 210px;
+    border: 2px solid white;
+    border-radius: 150px;
+    display: block;
+    margin-bottom: 90px;
+    margin-top: 200px;
+    text-align: center;
+  }
+
+  .text-big {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .text-small {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn {
+    height: 23px;
+    margin: 15px 6px;
+    border-radius: 12px;
+    padding: 5px 9px;
+    font-weight: bold;
+    background: none;
+    border: 2px solid #ffffff;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font-size: 10px;
+  }
+
+  .section {
+    max-width: 90%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  .sectionTag {
+    padding: 10px 0px;
+  }
+
+  .left {
+    flex-direction: column-reverse;
+  }
+
+  .paras {
+    padding: 5px 50px;
+    margin-bottom: 50px;
+  }
+
+  .imgFluid {
+    height: 200px;
+    width: 320px;
+    border: 3px solid black;
+    border-radius: 56px;
+    margin-top: 70px;
+    margin-bottom: 60px;
+    display: block;
+    text-align: center;
+  }
+
+  .contact {
+    background-color: #00000028;
+    height: 600px;
+  }
+
+  .text-center {
+    text-align: center;
+    padding: 30px 0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+  }
+
+  .form {
+    max-width: 80%;
+    margin: auto;
+  }
+
+  .form input,textarea {
+    width: 90%;
+    font-size: 15px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    margin: 12px;
+    padding: 2px 5px;
+    outline: none;
+  }
+
+  .btn-dark {
+    border: 2px solid gray;
+    color: #494949;
+    width: 20%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  footer {
+    background-color:;
+    color:;
+    width: 100vw;
+    margin: 0px 0px 0px 0px;
+  }
+
+  footer p {
+    margin: 0px 20px;
+    font-size: 10px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+}
+
+
+
+
+
+@media(min-width:1000px) and (max-width:2000px) {
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap');
+
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .logo img {
+    width: 60px;
+    height: 45px;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 50px;
+    position: fixed;
+    margin-top: 5px;
+    margin-left: 10px;
+    z-index: 1;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    height: 70px;
+  }
+
+  .nav-list {
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+  }
+
+  .nav-list li {
+    list-style: none;
+    margin: 10px 25px;
+    font-size: 20px;
+  }
+
+  .nav-list li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    border-radius: 12px;
+    padding: 2px 5px;
+    outline: none;
+  }
+
+  .nav-list li a:hover {
+    border: 2px solid #ffffffbf;
+    color: #ffffffbf;
+    outline: none;
+  }
+
+  .rightNav {
+    position: fixed;
+    right: 10px;
+    top: 15px;
+  }
+
+  .rightNav input {
+    background-color: #ffffff;
+    width: 90px;
+    font-size: 12px;
+    border: 2px solid #00000096;
+    border-radius: 12px;
+    outline: none;
+    height: 1px;
+    padding: 10px;
+  }
+
+  .btn-sm {
+    height: 24px;
+    margin: 5px 10px;
+    border-radius: 12px;
+    padding: 2px 20px;
+    font-weight: bold;
+    background: none;
+    color: white;
+    border: 2px solid white;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .background {
+    background: rgba(0,0,0,0.7) url('image/project8 bg1.jpeg');
+    background-size: cover;
+    background-blend-mode: darken;
+  }
+
+  .firstSection {
+    height: 60vh;
+  }
+
+  .box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Sans-Serif;
+    max-width: 85%;
+    height: 100%;
+    margin: auto;
+  }
+
+  .firstHalf {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .secondHalf {
+    width: 30%;
+  }
+
+  .secondHalf img {
+    width: 280px;
+    height: 260px;
+    border: 2px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+
+  .text-big {
+    font-size: 40px;
+  }
+
+  .text-small {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .btn {
+    height: 30px;
+    margin: 10px 6px;
+    border-radius: 12px;
+    padding: 2px 9px;
+    font-weight: bold;
+    background: none;
+    border: 2px solid #ffffff;
+    color: white;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .section {
+    height: 520px;
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  .sectionTag {
+    padding: 10px 0px;
+  }
+
+  .left {
+    flex-direction: row-reverse;
+  }
+
+  .paras {
+    padding: 5px 15px;
+  }
+
+  .imgFluid {
+    height: 300px;
+    width: 320px;
+    border: 3px solid black;
+    border-radius: 56px;
+    display: block;
+    text-align: center;
+  }
+
+  .contact {
+    background-color: #00000028;
+    height: 600px;
+  }
+
+  .text-center {
+    text-align: center;
+    padding: 30px 0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+  }
+
+  .form {
+    max-width: 40%;
+    margin: auto;
+  }
+
+  .form input,textarea {
+    width: 90%;
+    font-size: 18px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    margin: 12px;
+    padding: 4px 10px;
+    outline: none;
+  }
+
+  .btn-dark {
+    border: 2px solid gray;
+    color: #494949;
+    width: 30%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  footer {
+    background-color:;
+    color:;
+    width: 100vw;
+    margin: 0px 0px 0px 0px;
+  }
+
+  footer p {
+    margin: 0px 20px;
+    font-size: 13px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+}
